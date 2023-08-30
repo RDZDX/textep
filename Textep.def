@@ -1,0 +1,7 @@
+; Textep.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Textep"
+DESCRIPTION  'Textep Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
