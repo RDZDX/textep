@@ -31,11 +31,8 @@ VMINT		layer_hdl[1];
 void handle_sysevt(VMINT message, VMINT param);
 void handle_keyevt(VMINT event, VMINT keycode);
 void handle_penevt(VMINT event, VMINT x, VMINT y);
-static void draw_hello(void);
-void draw_black_rectangle(void);
 void checkFileExist(void);
-void text(VMINT state, VMWSTR text);
-void name(VMINT state, VMWSTR text);
+void save_text(VMINT state, VMWSTR text);
 VMINT my_path(VMWSTR file_path, VMINT wlen);
 
 #endif
